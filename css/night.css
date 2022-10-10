@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add Root Colors */
+:root{
+    --color-dark:#2C3E50;
+    --white-color:#fff;
+    --color-gray:#E1E8EA;
+    --color-nav:#8cff00;
+    --title-bg:#3498DB;
+}
+/* Local Website Add */
+body{
+    background-color: var(--color-gray);
+    font-family: 'Tajawal', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    background-color: var(--white-color);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+/* .containerr{
+    max-width: 1090px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--white-color);
+} */

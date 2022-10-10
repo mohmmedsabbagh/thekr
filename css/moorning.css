@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add Root Colors */
+:root{
+    --color-dark:#2C3E50;
+    --white-color:#fff;
+    --color-gray:#E1E8EA;
+    --color-nav:#8cff00;
+    --title-bg:#3498DB;
+}
+/* Local Website Add */
+
+body{
+    background-color: var(--color-gray);
+    font-family: 'Tajawal', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* Start Style Navbar */
+.navbar{
+    background-color: var(--color-dark);
+}
+.navbar .navbar-brand{
+    color: var(--white-color);
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-link{
+    color: var(--white-color);
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus{
+    color: var(--color-nav);
+    transition: 0.5s;
+}
+/* Finsh Style Navbar */
